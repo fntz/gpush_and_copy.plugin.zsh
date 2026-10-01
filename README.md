@@ -23,3 +23,20 @@ gpx -u origin HEAD
 ```
 
 Every argument is passed through to `git push`.
+
+See example:
+
+```
+gpx --set-upstream origin impl
+remote: 
+remote: Create a pull request for 'impl' on GitHub by visiting:        
+remote:      https://github.com/fntz/gpush_and_copy.plugin.zsh/pull/new/impl        
+remote: 
+To github.com:fntz/gpush_and_copy.plugin.zsh.git
+ * [new branch]      impl -> impl
+branch 'impl' set up to track 'origin/impl'.
+
+Copied: https://github.com/fntz/gpush_and_copy.plugin.zsh/pull/new/impl
+```
+
+And voylla `Ctrl-V` contains link to MR (`https://github.com/fntz/gpush_and_copy.plugin.zsh/pull/new/impl`)
