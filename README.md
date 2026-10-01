@@ -42,3 +42,5 @@ Copied: https://github.com/fntz/gpush_and_copy.plugin.zsh/pull/new/impl
 And voylla `Ctrl-V` contains link to MR (`https://github.com/fntz/gpush_and_copy.plugin.zsh/pull/new/impl`)
 
 License: MIT
+
+2026
