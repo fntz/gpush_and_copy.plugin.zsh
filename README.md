@@ -24,7 +24,7 @@ gpx -u origin HEAD
 
 Every argument is passed through to `git push`.
 
-See example:
+### See example:
 
 ```
 gpx --set-upstream origin impl
@@ -39,6 +39,9 @@ branch 'impl' set up to track 'origin/impl'.
 Copied: https://github.com/fntz/gpush_and_copy.plugin.zsh/pull/new/impl
 ```
 
+And voylla `Ctrl-V` contains link to MR (`https://github.com/fntz/gpush_and_copy.plugin.zsh/pull/new/impl`)
+
+
 ## FAQ
 
 **Why is there sometimes no link to copy?**
@@ -49,7 +52,5 @@ The host prints it. `gpx` only copies what is already in the push output.
 - **GitLab** prints a link on every branch push (on by default). After a merge request exists, the link points at it.
 - **Bitbucket Cloud** prints a create link on later pushes too, when the account option **Enable console messages** is on.
 - **Bitbucket Data Center** prints a create link while the branch is new or has no pull request.
-
-And voylla `Ctrl-V` contains link to MR (`https://github.com/fntz/gpush_and_copy.plugin.zsh/pull/new/impl`)
 
 License: MIT
