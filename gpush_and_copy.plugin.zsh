@@ -13,3 +13,8 @@ gpx() {
     fi
   fi
 }
+
+# gpx with --set-upstream origin <current branch>
+gpxx() {
+  gpx --set-upstream origin "$(git_current_branch)"
+}
